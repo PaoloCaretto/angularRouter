@@ -1,0 +1,5 @@
+<p>Pagina prodotto da allestire</p>
+<h3>{{ product?.title }}</h3>
+<p>{{ product?.description }}</p>
+<img [src]="product?.thumbnail" alt="immagine" />
+<img *ngFor="let immagine of product?.images" [src]="immagine" alt="galleria" />

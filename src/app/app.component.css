@@ -1,0 +1,14 @@
+.navbar {
+  background-color: yellow;
+  padding: 10px;
+}
+.navbar-link {
+  background-color: lightskyblue;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  margin: 10px;
+}
+.active {
+  background-color: red;
+}

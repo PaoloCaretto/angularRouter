@@ -1,0 +1,7 @@
+<div>
+  <h3>{{ titolo }}</h3>
+  <p>{{ testo }}</p>
+  <img [src]="immagine" alt="immagine" />
+  <button (click)="vaiAProdotto()">Vai a dettaglio da bottone</button>
+  <a [routerLink]="['/products', id]">Link to details</a>
+</div>

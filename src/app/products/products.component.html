@@ -1,0 +1,11 @@
+<p>products works!</p>
+
+<app-card
+  *ngFor="let product of productList?.products"
+  [titolo]="product.title"
+  [testo]="product.description"
+  [immagine]="product.thumbnail"
+  [id]="product.id"
+></app-card>
+
+<pre>{{ productList | json }}</pre>
